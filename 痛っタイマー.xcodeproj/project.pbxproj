@@ -14,6 +14,8 @@
 		EF390BCF1CE0B9F600C5D8D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF390BCD1CE0B9F600C5D8D3 /* LaunchScreen.storyboard */; };
 		EF390BDA1CE0B9F600C5D8D3 /* ______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF390BD91CE0B9F600C5D8D3 /* ______Tests.swift */; };
 		EF390BE51CE0B9F600C5D8D3 /* ______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF390BE41CE0B9F600C5D8D3 /* ______UITests.swift */; };
+		EF390BF31CE0D7F200C5D8D3 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF390BF21CE0D7F200C5D8D3 /* EditViewController.swift */; };
+		EF390BF51CE0F45800C5D8D3 /* でんでんぱっしょん.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF390BF41CE0F45800C5D8D3 /* でんでんぱっしょん.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		EF390BE01CE0B9F600C5D8D3 /* 痛っタイマーUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "痛っタイマーUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF390BE41CE0B9F600C5D8D3 /* ______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______UITests.swift"; sourceTree = "<group>"; };
 		EF390BE61CE0B9F600C5D8D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF390BF21CE0D7F200C5D8D3 /* EditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		EF390BF41CE0F45800C5D8D3 /* でんでんぱっしょん.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "でんでんぱっしょん.mp3"; path = "../../../Desktop/でんでんぱっしょん.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				EF390BC41CE0B9F600C5D8D3 /* AppDelegate.swift */,
 				EF390BC61CE0B9F600C5D8D3 /* ViewController.swift */,
 				EF390BC81CE0B9F600C5D8D3 /* Main.storyboard */,
+				EF390BF21CE0D7F200C5D8D3 /* EditViewController.swift */,
+				EF390BF41CE0F45800C5D8D3 /* でんでんぱっしょん.mp3 */,
 				EF390BCB1CE0B9F600C5D8D3 /* Assets.xcassets */,
 				EF390BCD1CE0B9F600C5D8D3 /* LaunchScreen.storyboard */,
 				EF390BD01CE0B9F600C5D8D3 /* Info.plist */,
@@ -235,6 +241,7 @@
 				EF390BCF1CE0B9F600C5D8D3 /* LaunchScreen.storyboard in Resources */,
 				EF390BCC1CE0B9F600C5D8D3 /* Assets.xcassets in Resources */,
 				EF390BCA1CE0B9F600C5D8D3 /* Main.storyboard in Resources */,
+				EF390BF51CE0F45800C5D8D3 /* でんでんぱっしょん.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +268,7 @@
 			files = (
 				EF390BC71CE0B9F600C5D8D3 /* ViewController.swift in Sources */,
 				EF390BC51CE0B9F600C5D8D3 /* AppDelegate.swift in Sources */,
+				EF390BF31CE0D7F200C5D8D3 /* EditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
