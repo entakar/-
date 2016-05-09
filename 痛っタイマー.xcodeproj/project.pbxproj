@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF390BC51CE0B9F600C5D8D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF390BC41CE0B9F600C5D8D3 /* AppDelegate.swift */; };
+		EF390BC71CE0B9F600C5D8D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF390BC61CE0B9F600C5D8D3 /* ViewController.swift */; };
+		EF390BCA1CE0B9F600C5D8D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF390BC81CE0B9F600C5D8D3 /* Main.storyboard */; };
+		EF390BCC1CE0B9F600C5D8D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF390BCB1CE0B9F600C5D8D3 /* Assets.xcassets */; };
+		EF390BCF1CE0B9F600C5D8D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF390BCD1CE0B9F600C5D8D3 /* LaunchScreen.storyboard */; };
+		EF390BDA1CE0B9F600C5D8D3 /* ______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF390BD91CE0B9F600C5D8D3 /* ______Tests.swift */; };
+		EF390BE51CE0B9F600C5D8D3 /* ______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF390BE41CE0B9F600C5D8D3 /* ______UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF390BD61CE0B9F600C5D8D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF390BB91CE0B9F600C5D8D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF390BC01CE0B9F600C5D8D3;
+			remoteInfo = "痛っタイマー";
+		};
+		EF390BE11CE0B9F600C5D8D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF390BB91CE0B9F600C5D8D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF390BC01CE0B9F600C5D8D3;
+			remoteInfo = "痛っタイマー";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF390BC11CE0B9F600C5D8D3 /* 痛っタイマー.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "痛っタイマー.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF390BC41CE0B9F600C5D8D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF390BC61CE0B9F600C5D8D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF390BC91CE0B9F600C5D8D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF390BCB1CE0B9F600C5D8D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF390BCE1CE0B9F600C5D8D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF390BD01CE0B9F600C5D8D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF390BD51CE0B9F600C5D8D3 /* 痛っタイマーTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "痛っタイマーTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF390BD91CE0B9F600C5D8D3 /* ______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______Tests.swift"; sourceTree = "<group>"; };
+		EF390BDB1CE0B9F600C5D8D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF390BE01CE0B9F600C5D8D3 /* 痛っタイマーUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "痛っタイマーUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF390BE41CE0B9F600C5D8D3 /* ______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______UITests.swift"; sourceTree = "<group>"; };
+		EF390BE61CE0B9F600C5D8D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF390BBE1CE0B9F600C5D8D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF390BD21CE0B9F600C5D8D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF390BDD1CE0B9F600C5D8D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF390BB81CE0B9F600C5D8D3 = {
+			isa = PBXGroup;
+			children = (
+				EF390BC31CE0B9F600C5D8D3 /* 痛っタイマー */,
+				EF390BD81CE0B9F600C5D8D3 /* 痛っタイマーTests */,
+				EF390BE31CE0B9F600C5D8D3 /* 痛っタイマーUITests */,
+				EF390BC21CE0B9F600C5D8D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF390BC21CE0B9F600C5D8D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF390BC11CE0B9F600C5D8D3 /* 痛っタイマー.app */,
+				EF390BD51CE0B9F600C5D8D3 /* 痛っタイマーTests.xctest */,
+				EF390BE01CE0B9F600C5D8D3 /* 痛っタイマーUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF390BC31CE0B9F600C5D8D3 /* 痛っタイマー */ = {
+			isa = PBXGroup;
+			children = (
+				EF390BC41CE0B9F600C5D8D3 /* AppDelegate.swift */,
+				EF390BC61CE0B9F600C5D8D3 /* ViewController.swift */,
+				EF390BC81CE0B9F600C5D8D3 /* Main.storyboard */,
+				EF390BCB1CE0B9F600C5D8D3 /* Assets.xcassets */,
+				EF390BCD1CE0B9F600C5D8D3 /* LaunchScreen.storyboard */,
+				EF390BD01CE0B9F600C5D8D3 /* Info.plist */,
+			);
+			path = "痛っタイマー";
+			sourceTree = "<group>";
+		};
+		EF390BD81CE0B9F600C5D8D3 /* 痛っタイマーTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF390BD91CE0B9F600C5D8D3 /* ______Tests.swift */,
+				EF390BDB1CE0B9F600C5D8D3 /* Info.plist */,
+			);
+			path = "痛っタイマーTests";
+			sourceTree = "<group>";
+		};
+		EF390BE31CE0B9F600C5D8D3 /* 痛っタイマーUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF390BE41CE0B9F600C5D8D3 /* ______UITests.swift */,
+				EF390BE61CE0B9F600C5D8D3 /* Info.plist */,
+			);
+			path = "痛っタイマーUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF390BC01CE0B9F600C5D8D3 /* 痛っタイマー */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF390BE91CE0B9F600C5D8D3 /* Build configuration list for PBXNativeTarget "痛っタイマー" */;
+			buildPhases = (
+				EF390BBD1CE0B9F600C5D8D3 /* Sources */,
+				EF390BBE1CE0B9F600C5D8D3 /* Frameworks */,
+				EF390BBF1CE0B9F600C5D8D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "痛っタイマー";
+			productName = "痛っタイマー";
+			productReference = EF390BC11CE0B9F600C5D8D3 /* 痛っタイマー.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF390BD41CE0B9F600C5D8D3 /* 痛っタイマーTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF390BEC1CE0B9F600C5D8D3 /* Build configuration list for PBXNativeTarget "痛っタイマーTests" */;
+			buildPhases = (
+				EF390BD11CE0B9F600C5D8D3 /* Sources */,
+				EF390BD21CE0B9F600C5D8D3 /* Frameworks */,
+				EF390BD31CE0B9F600C5D8D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF390BD71CE0B9F600C5D8D3 /* PBXTargetDependency */,
+			);
+			name = "痛っタイマーTests";
+			productName = "痛っタイマーTests";
+			productReference = EF390BD51CE0B9F600C5D8D3 /* 痛っタイマーTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF390BDF1CE0B9F600C5D8D3 /* 痛っタイマーUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF390BEF1CE0B9F600C5D8D3 /* Build configuration list for PBXNativeTarget "痛っタイマーUITests" */;
+			buildPhases = (
+				EF390BDC1CE0B9F600C5D8D3 /* Sources */,
+				EF390BDD1CE0B9F600C5D8D3 /* Frameworks */,
+				EF390BDE1CE0B9F600C5D8D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF390BE21CE0B9F600C5D8D3 /* PBXTargetDependency */,
+			);
+			name = "痛っタイマーUITests";
+			productName = "痛っタイマーUITests";
+			productReference = EF390BE01CE0B9F600C5D8D3 /* 痛っタイマーUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF390BB91CE0B9F600C5D8D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = tak;
+				TargetAttributes = {
+					EF390BC01CE0B9F600C5D8D3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7YKRKJA4VT;
+					};
+					EF390BD41CE0B9F600C5D8D3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7YKRKJA4VT;
+						TestTargetID = EF390BC01CE0B9F600C5D8D3;
+					};
+					EF390BDF1CE0B9F600C5D8D3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7YKRKJA4VT;
+						TestTargetID = EF390BC01CE0B9F600C5D8D3;
+					};
+				};
+			};
+			buildConfigurationList = EF390BBC1CE0B9F600C5D8D3 /* Build configuration list for PBXProject "痛っタイマー" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF390BB81CE0B9F600C5D8D3;
+			productRefGroup = EF390BC21CE0B9F600C5D8D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF390BC01CE0B9F600C5D8D3 /* 痛っタイマー */,
+				EF390BD41CE0B9F600C5D8D3 /* 痛っタイマーTests */,
+				EF390BDF1CE0B9F600C5D8D3 /* 痛っタイマーUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF390BBF1CE0B9F600C5D8D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF390BCF1CE0B9F600C5D8D3 /* LaunchScreen.storyboard in Resources */,
+				EF390BCC1CE0B9F600C5D8D3 /* Assets.xcassets in Resources */,
+				EF390BCA1CE0B9F600C5D8D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF390BD31CE0B9F600C5D8D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF390BDE1CE0B9F600C5D8D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF390BBD1CE0B9F600C5D8D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF390BC71CE0B9F600C5D8D3 /* ViewController.swift in Sources */,
+				EF390BC51CE0B9F600C5D8D3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF390BD11CE0B9F600C5D8D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF390BDA1CE0B9F600C5D8D3 /* ______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF390BDC1CE0B9F600C5D8D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF390BE51CE0B9F600C5D8D3 /* ______UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF390BD71CE0B9F600C5D8D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF390BC01CE0B9F600C5D8D3 /* 痛っタイマー */;
+			targetProxy = EF390BD61CE0B9F600C5D8D3 /* PBXContainerItemProxy */;
+		};
+		EF390BE21CE0B9F600C5D8D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF390BC01CE0B9F600C5D8D3 /* 痛っタイマー */;
+			targetProxy = EF390BE11CE0B9F600C5D8D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF390BC81CE0B9F600C5D8D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF390BC91CE0B9F600C5D8D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF390BCD1CE0B9F600C5D8D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF390BCE1CE0B9F600C5D8D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF390BE71CE0B9F600C5D8D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF390BE81CE0B9F600C5D8D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF390BEA1CE0B9F600C5D8D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "痛っタイマー/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tak.inc.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF390BEB1CE0B9F600C5D8D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "痛っタイマー/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tak.inc.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF390BED1CE0B9F600C5D8D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "痛っタイマーTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tak.inc.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/痛っタイマー.app/痛っタイマー";
+			};
+			name = Debug;
+		};
+		EF390BEE1CE0B9F600C5D8D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "痛っタイマーTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tak.inc.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/痛っタイマー.app/痛っタイマー";
+			};
+			name = Release;
+		};
+		EF390BF01CE0B9F600C5D8D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "痛っタイマーUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tak.inc.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "痛っタイマー";
+			};
+			name = Debug;
+		};
+		EF390BF11CE0B9F600C5D8D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "痛っタイマーUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tak.inc.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "痛っタイマー";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF390BBC1CE0B9F600C5D8D3 /* Build configuration list for PBXProject "痛っタイマー" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF390BE71CE0B9F600C5D8D3 /* Debug */,
+				EF390BE81CE0B9F600C5D8D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF390BE91CE0B9F600C5D8D3 /* Build configuration list for PBXNativeTarget "痛っタイマー" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF390BEA1CE0B9F600C5D8D3 /* Debug */,
+				EF390BEB1CE0B9F600C5D8D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF390BEC1CE0B9F600C5D8D3 /* Build configuration list for PBXNativeTarget "痛っタイマーTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF390BED1CE0B9F600C5D8D3 /* Debug */,
+				EF390BEE1CE0B9F600C5D8D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF390BEF1CE0B9F600C5D8D3 /* Build configuration list for PBXNativeTarget "痛っタイマーUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF390BF01CE0B9F600C5D8D3 /* Debug */,
+				EF390BF11CE0B9F600C5D8D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF390BB91CE0B9F600C5D8D3 /* Project object */;
+}
