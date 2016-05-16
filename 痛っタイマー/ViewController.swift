@@ -30,6 +30,7 @@ UINavigationControllerDelegate, UIImagePickerControllerDelegate{
     var hour:Int    = 0
     var time:Int    = 0
     var sec:Int     = 0
+    var backFlag    = 0
     //image
     var mainImage:UIImage = UIImage()
     var RR:Float = 0.0
@@ -57,7 +58,6 @@ UINavigationControllerDelegate, UIImagePickerControllerDelegate{
             ImageView.image = UIImage(contentsOfFile: path)
             print ("写真保存")
         }else{
-//            ImageView.image = ""
             print ("写真なし")
         }
         RR = NSUserDefaults.standardUserDefaults().floatForKey("colorR")
@@ -70,6 +70,9 @@ UINavigationControllerDelegate, UIImagePickerControllerDelegate{
         STOP.setTitleColor(
             UIColor(colorLiteralRed: RR, green: GG, blue: BB, alpha: 1)
             , forState: .Normal)
+        //プレイヤーの作成
+        _player.append(makeAudioPlayer("でんでんぱっしょん.mp3")!)
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -78,7 +81,7 @@ UINavigationControllerDelegate, UIImagePickerControllerDelegate{
     }
 
     @IBAction func TotchButton(sender: UIButton){
-        if sender.titleLabel!.text! == "▷"{
+        if sender.titleLabel!.text! == "▷" && timeFlag == true {
             timeFlag = false
             totchStart()
         }else if sender.titleLabel!.text! == "□" &&
@@ -88,6 +91,7 @@ UINavigationControllerDelegate, UIImagePickerControllerDelegate{
     }
     
     func totchStart(){
+        //
         DatePicker.hidden = true
         Count = Int(DatePicker.countDownDuration)
         //秒数を切り捨て
@@ -96,7 +100,7 @@ UINavigationControllerDelegate, UIImagePickerControllerDelegate{
         Count = Count - (Count - ((hour * 60 * 60) + (time * 60)))
         //timerを生成する.
         timer = NSTimer.scheduledTimerWithTimeInterval(
-            1,
+            1.0,
             target: self,
             selector: Selector("step"),
             userInfo: nil,
@@ -105,19 +109,41 @@ UINavigationControllerDelegate, UIImagePickerControllerDelegate{
         STOP.enabled = true
     }
     func step(){
+        NSUserDefaults.standardUserDefaults().setInteger(Count, forKey: "Count")
         hour =  ((Count / 60) / 60)
         time = (Count - (hour * 60 * 60)) / 60
         sec  = ((Count - ((hour * 60 * 60) + (time * 60)) ) )
+        print ( hour, time, sec )
         self.DateLabel.text = String(format: "%02d:%02d:%02d",hour,time,sec)
-        Count--
-        if( Count < 0){
+        backFlag = NSUserDefaults.standardUserDefaults().integerForKey("backFlag")
+        if( Count < 1){
             timer.invalidate()
-            _player[0].currentTime = 9999
-            _player[0].play()
-            audioFlag = false
-            alertOkCancel("完了", messe:"時間になりました")
+            if audioFlag == true{
+                timerStop()
+                playOn()
+            }
+        }else{
+            Count -= 1
         }
         
+    }
+    func playOn(){
+        timer.invalidate()
+        
+        _player[0].currentTime = 999
+        _player[0].play()
+        alertOkCancel("タスク完了", messe: "OK" )
+        print ("完了")
+        audioFlag = false
+
+        let app = UIApplication.sharedApplication()
+        let notification = UILocalNotification()
+        notification.alertBody = "タスク完了"
+        notification.alertAction = "OK"
+        notification.soundName = UILocalNotificationDefaultSoundName
+        notification.fireDate = NSDate(timeInterval: 0, sinceDate: NSDate())
+        notification.timeZone = NSTimeZone.defaultTimeZone()
+        app.presentLocalNotificationNow(notification)
     }
     //オーディオプレーヤーの生成
     func makeAudioPlayer(res:String) -> AVAudioPlayer? {
@@ -126,7 +152,7 @@ UINavigationControllerDelegate, UIImagePickerControllerDelegate{
         let url = NSURL.fileURLWithPath(path!)
         
         do {
-            //オーディオプレーヤーの生成(2)
+            //オーディオプレーヤーの生成
             return try AVAudioPlayer(contentsOfURL: url)
         } catch _ {
             return nil
@@ -182,6 +208,8 @@ UINavigationControllerDelegate, UIImagePickerControllerDelegate{
         )
         
     }
+    
+
 
 }
 

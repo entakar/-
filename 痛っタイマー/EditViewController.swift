@@ -33,7 +33,7 @@ UINavigationControllerDelegate, UIImagePickerControllerDelegate {
         colorR = RSlider.value
         colorG = GSlider.value
         colorB = BSlider.value
-        sampleLabel.textColor = UIColor(colorLiteralRed: BSlider.value, green: BSlider.value, blue: BSlider.value , alpha: 1)
+        sampleLabel.textColor = UIColor(colorLiteralRed: RSlider.value, green: GSlider.value, blue: BSlider.value , alpha: 1)
         NSUserDefaults.standardUserDefaults().setFloat(RSlider.value, forKey: "colorR")
         NSUserDefaults.standardUserDefaults().setFloat(GSlider.value, forKey: "colorG")
         NSUserDefaults.standardUserDefaults().setFloat(BSlider.value, forKey: "colorB")
@@ -119,7 +119,6 @@ UINavigationControllerDelegate, UIImagePickerControllerDelegate {
 //        alert.addAction(UIAlertAction(title: "OK",style: UIAlertActionStyle.Default, handler: nil))
 //        self.presentViewController(alert, animated: true, completion: nil)
 //    }
-
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
